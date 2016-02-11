@@ -35,8 +35,8 @@ public class IntentReaderActivity extends Activity {
             text = transformText(intent.getStringExtra(TEXT_TO_TRANSFORM_KEY));
         else
             text = "default value";
-        ((TextView)findViewById(R.id.intentText)).setText(text);
 
+        ((TextView)findViewById(R.id.intentText)).setText(text);
         //
         //
     }
